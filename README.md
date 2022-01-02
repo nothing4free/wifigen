@@ -6,9 +6,9 @@ A simple Python-based wifi (or anything, really!) password dictionary generator.
 `python3 wifigen.py -t <type> -l <length> -o <filename>`
 
 Supported dictionary types:
-⋅⋅* Numeric
-⋅⋅* Alphabetic
-⋅⋅* Alphanumeric
++ Numeric
++ Alphabetic
++ Alphanumeric
 
 Please note that wifigen does not overwrite already existing files, so a new filename is needed in order to generate a dictionary successfully.
 
