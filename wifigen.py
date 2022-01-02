@@ -63,14 +63,15 @@ def generate_dict(dict_type, password_len, filename):
                     f.write(str(i))
                     f.write("\n")
                     counter = 0
-        print("[" + color.OKGREEN + 'i' + color.ENDC + "] Dictionary generated successfully, exiting now...")
+        print("[" + color.OKGREEN + 'i' + color.ENDC + "] Dictionary generated successfully. Happy hacking!")
     except:
         print(" [" + color.FAIL + "!" + color.ENDC + "] An error occurred while generating the dictionary, "
                                                      "exiting now...")
 
+
 def check_files(file):
     if os.path.isfile(file):
-        print(" [" + color.FAIL + "!" + color.ENDC + "] ERROR: File already exists.")
+        print(" [" + color.FAIL + "!" + color.ENDC + "] ERROR: File already exists. Please specify a new filename.")
         quit()
 
 
