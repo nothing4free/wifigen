@@ -1,5 +1,7 @@
 # wifigen
 
+![wifigen_ascii_logo](https://raw.githubusercontent.com/nothing4free/wifigen/main/wifigen.png)
+
 A simple Python-based wifi (or anything, really!) password dictionary generator.
 
 ## Usage
