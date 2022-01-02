@@ -1,7 +1,7 @@
 ![wifigen_ascii_logo](https://raw.githubusercontent.com/nothing4free/wifigen/main/wifigen.png)
 
 A simple Python-based wifi (or anything, really!) password dictionary generator.
-
+Given a dictionary type and password length, this script will generate a dictionary with all possible character combinations, for later use with brute-forcing tools.
 ## Usage
 `python3 wifigen.py -t <type> -l <length> -o <filename>`
 
